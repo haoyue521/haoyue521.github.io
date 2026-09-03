@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="泡泡贴纸">
+  <rect width="240" height="240" rx="28" fill="#fff"/>
+  <g transform="translate(120 120)">
+    <circle cx="0" cy="0" r="82" fill="#b8e8d4" stroke="#2b2233" stroke-width="9"/>
+    <path d="M-48 -40 a70 70 0 0 1 40 -44" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+    <circle cx="-28" cy="-4" r="9" fill="#2b2233"/>
+    <circle cx="28" cy="-4" r="9" fill="#2b2233"/>
+    <circle cx="-25" cy="-7" r="3" fill="#fff"/>
+    <circle cx="31" cy="-7" r="3" fill="#fff"/>
+    <circle cx="-48" cy="30" r="12" fill="#ff9fc0" opacity="0.8"/>
+    <circle cx="48" cy="30" r="12" fill="#ff9fc0" opacity="0.8"/>
+    <path d="M-14 26 q14 18 28 0" fill="none" stroke="#2b2233" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <path d="M196 44 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 z" fill="#ffd166"/>
+  <circle cx="44" cy="184" r="6" fill="#cdb4f6"/>
+</svg>

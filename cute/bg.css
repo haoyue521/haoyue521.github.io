@@ -1,0 +1,14 @@
+/* ===== 可爱站 · 全站粒子流场背景（field.js） =====
+   说明：
+   - #bgField 用 z-index:-1 垫在所有内容之下、身体底色之上；
+     原 .bg-blobs(z-index:-2) 在画布之下、.sparkles(z-index:10) 在画布之上，
+     三者互不干扰，无需改动原有定位。
+*/
+#bgField {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}

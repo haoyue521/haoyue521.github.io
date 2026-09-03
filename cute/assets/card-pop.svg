@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 680" role="img" aria-label="撞色糖果">
+  <rect width="600" height="680" fill="#fff"/>
+  <rect x="0" y="0" width="300" height="340" rx="0" fill="#ff7ba9"/>
+  <rect x="300" y="0" width="300" height="340" fill="#9d7be8"/>
+  <rect x="0" y="340" width="300" height="340" fill="#a8d8ff"/>
+  <rect x="300" y="340" width="300" height="340" fill="#b8e8d4"/>
+  <g transform="translate(300 340)">
+    <circle cx="0" cy="0" r="150" fill="#ffd166" stroke="#2b2233" stroke-width="14"/>
+    <circle cx="-50" cy="-20" r="16" fill="#2b2233"/>
+    <circle cx="50" cy="-20" r="16" fill="#2b2233"/>
+    <circle cx="-44" cy="-26" r="5" fill="#fff"/>
+    <circle cx="56" cy="-26" r="5" fill="#fff"/>
+    <path d="M-24 36 q24 30 48 0" fill="none" stroke="#2b2233" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <g fill="#fff" opacity="0.9">
+    <circle cx="80" cy="80" r="10"/>
+    <circle cx="520" cy="90" r="12"/>
+    <circle cx="90" cy="600" r="12"/>
+    <circle cx="520" cy="600" r="9"/>
+  </g>
+</svg>

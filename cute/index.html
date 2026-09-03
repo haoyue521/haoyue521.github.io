@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>李皓文 · HAOWEN LI — 可爱星球 🌸</title>
+<meta name="description" content="李皓文的灵动可爱个人主页：视觉设计 · 摄影 · AIGC 创作" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="bg.css" />
+</head>
+<body>
+<canvas id="bgField" data-field="pastel" data-blend="soft" aria-hidden="true"></canvas>
+<div class="bg-blobs" aria-hidden="true">
+  <span class="blob b1"></span>
+  <span class="blob b2"></span>
+  <span class="blob b3"></span>
+  <span class="blob b4"></span>
+  <span class="blob b5"></span>
+</div>
+<div id="sparkles" class="sparkles" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top">
+    <span class="brand-emoji">🌸</span>
+    <span class="brand-text">设计的可爱星球</span>
+  </a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#about">关于我</a>
+    <a href="#works">作品集</a>
+    <a href="#inspiration">灵感小站</a>
+    <a href="#strengths">超能力</a>
+    <a href="#contact">联系我</a>
+  </nav>
+  <div class="switch" aria-label="风格切换"><a href="../">暗黑</a><a href="./" class="on">可爱</a><a href="../color/">彩色</a></div>
+  <button class="menu-btn" id="menuBtn" aria-label="打开菜单">☰</button>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="hero-hello">哈喽你好呀 👋 我是</p>
+        <h1 class="hero-name">
+          <span class="grad-text">李皓文</span>
+          <span class="hero-en">HAOWEN LI</span>
+        </h1>
+        <div class="hero-roles" id="roles" aria-live="polite">
+          <span class="role-chip">视觉设计师</span>
+        </div>
+        <p class="hero-tagline">把世界拍得好看、设计得有趣、<br/>生成得可可爱爱 ✨</p>
+        <div class="hero-actions">
+          <a class="btn btn-main" href="#works">看我的作品 🎨</a>
+          <a class="btn btn-ghost" href="#contact">联系我 💌</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="mascot-frame wobble">
+          <img src="assets/mascot.svg" alt="可爱的星球宝宝" />
+        </div>
+        <div class="sticker s1"><img src="assets/sticker-heart.svg" alt="爱心贴纸" /></div>
+        <div class="sticker s2"><img src="assets/sticker-star.svg" alt="星星贴纸" /></div>
+        <div class="sticker s3"><img src="assets/sticker-bubble.svg" alt="泡泡贴纸" /></div>
+        <span class="float-emoji e1">🫧</span>
+        <span class="float-emoji e2">✨</span>
+        <span class="float-emoji e3">🎀</span>
+        <span class="float-emoji e4">🌈</span>
+      </div>
+    </div>
+    <a class="scroll-hint" href="#about">往下滑 <span>⌄</span></a>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>✨ 摄影 📸</span><span>设计 🎨</span><span>AIGC 🤖</span><span>蓝晒 🌸</span><span>可爱第一 ☝️</span><span>古风 🏮</span><span>短剧 🎬</span><span>商业实拍 💼</span>
+      <span>✨ 摄影 📸</span><span>设计 🎨</span><span>AIGC 🤖</span><span>蓝晒 🌸</span><span>可爱第一 ☝️</span><span>古风 🏮</span><span>短剧 🎬</span><span>商业实拍 💼</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="section-head reveal">
+      <p class="kicker">关于我 🍬</p>
+      <h2>认识一下<br/><span class="grad-text">可爱又靠谱</span>的我</h2>
+    </div>
+    <div class="about-grid">
+      <div class="card about-card reveal">
+        <img class="about-portrait" src="assets/portrait.jpg" alt="李皓文" />
+        <div class="about-badges">
+          <span class="pill pill-pink">📸 摄影师</span>
+          <span class="pill pill-lav">🎨 视觉设计师</span>
+          <span class="pill pill-blue">🤖 AIGC 创作者</span>
+        </div>
+      </div>
+      <div class="card about-text reveal">
+        <p>我是<strong>李皓文</strong>，一名来自河北的视觉设计师与摄影师。</p>
+        <p>镜头是我记录现场的方式，设计是我重构观看的语言——从古典工艺的慢速显影，到 AIGC 的即时生成，我始终在寻找影像里「克制而锋利」的那条边界。</p>
+        <p>四年影像专业训练，贯通「前期策划 — 现场拍摄 — 后期输出」完整工作流；作品入选<strong>丽水国际摄影展</strong>，现为<strong>石家庄摄影家协会会员</strong>。</p>
+        <div class="about-chips">
+          <span class="chip">📍 河北 · 廊坊 / 石家庄</span>
+          <span class="chip">🏫 河北传媒学院 · 摄影专业</span>
+        </div>
+      </div>
+    </div>
+    <div class="stats reveal">
+      <div class="stat-card card-pink"><b>07</b><span>精选作品系列</span></div>
+      <div class="stat-card card-lav"><b>01</b><span>国际影展入选</span></div>
+      <div class="stat-card card-blue"><b>04+</b><span>类商业实拍</span></div>
+      <div class="stat-card card-mint"><b>03+</b><span>年影像深耕</span></div>
+    </div>
+  </section>
+
+  <!-- WORKS / 作品集 -->
+  <section class="section" id="works">
+    <div class="section-head reveal">
+      <p class="kicker">作品集 📸</p>
+      <h2>我的<br/><span class="grad-text">精选作品</span></h2>
+      <p class="sub">点击任意卡片，可以放大慢慢看 👀</p>
+    </div>
+    <div class="works-grid" id="worksGrid"></div>
+  </section>
+
+  <!-- INSPIRATION / 灵感小站 -->
+  <section class="section" id="inspiration">
+    <div class="section-head reveal">
+      <p class="kicker">灵感小站 🧸</p>
+      <h2>最近收集的<br/><span class="grad-text">可爱灵感</span></h2>
+    </div>
+    <div class="inspo-grid">
+      <div class="work-card reveal tilt">
+        <div class="work-media"><img src="assets/card-candy.svg" alt="糖果星球" /></div>
+        <div class="work-info"><h3>糖果星球</h3><p>粉粉的星球宝宝，甜甜的 🍬</p></div>
+      </div>
+      <div class="work-card reveal tilt">
+        <div class="work-media"><img src="assets/card-cloud.svg" alt="奶油云朵" /></div>
+        <div class="work-info"><h3>奶油云朵</h3><p>软乎乎的云朵宝宝 🍰</p></div>
+      </div>
+      <div class="work-card reveal tilt">
+        <div class="work-media"><img src="assets/card-dream.svg" alt="紫蓝梦境" /></div>
+        <div class="work-info"><h3>紫蓝梦境</h3><p>梦幻配色，安静又上头 💜</p></div>
+      </div>
+      <div class="work-card reveal tilt">
+        <div class="work-media"><img src="assets/card-pop.svg" alt="撞色糖果" /></div>
+        <div class="work-info"><h3>撞色糖果</h3><p>大胆撞色，活泼新潮 🍬</p></div>
+      </div>
+    </div>
+    <p class="works-note reveal">想看完整摄影作品集？点这里 👉 <a href="https://haoyue521.github.io/" target="_blank" rel="noopener">打开我的正式作品集</a></p>
+  </section>
+
+  <!-- STRENGTHS -->
+  <section class="section" id="strengths">
+    <div class="section-head reveal">
+      <p class="kicker">我的超能力 ⚡</p>
+      <h2>这几样<br/><span class="grad-text">我超会</span>的</h2>
+    </div>
+    <div class="strength-grid">
+      <div class="strength-card card-pink reveal"><span class="icon">📸</span><h3>摄影创作</h3><p>人像、静物、纪实、商业拍摄；蓝晒、范戴克、胶卷统统玩得转。</p></div>
+      <div class="strength-card card-lav reveal"><span class="icon">🎨</span><h3>后期与设计</h3><p>PS / LR 调色精修，剪映剪辑，平面与版式设计一手包。</p></div>
+      <div class="strength-card card-blue reveal"><span class="icon">🤖</span><h3>AIGC 创作</h3><p>用 AI 生成辅助创意策划与视觉素材，效率翻倍不加班。</p></div>
+      <div class="strength-card card-mint reveal"><span class="icon">🧩</span><h3>全流程统筹</h3><p>从策划到拍摄再到输出，一个人就是一支小队。</p></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="contact-box reveal">
+      <p class="kicker">联系我 💌</p>
+      <h2>交个朋友，<br/><span class="grad-text">一起搞点可爱的</span></h2>
+      <p class="sub">接拍摄 / 设计 / AIGC 合作，也欢迎一起脑洞大开。</p>
+      <div class="contact-chips">
+        <a class="chip chip-link" href="tel:+8619031068512">📞 190 3106 8512</a>
+        <span class="chip">💬 微信 li19031068512</span>
+        <a class="chip chip-link" href="mailto:mll477298884@qq.com">📧 mll477298884@qq.com</a>
+      </div>
+      <div class="contact-actions">
+        <a class="btn btn-main" href="mailto:mll477298884@qq.com">给我写信 ✉️</a>
+        <a class="btn btn-ghost" href="https://haoyue521.github.io/" target="_blank" rel="noopener">看正式作品集 ↗</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© 2026 李皓文 · HAOWEN LI · 可爱星球 🌸</p>
+  <p class="footer-emoji">✨ 保持可爱，持续创作 ✨</p>
+</footer>
+
+<!-- 作品弹层 -->
+<div class="modal" id="workModal" aria-hidden="true">
+  <div class="modal-backdrop" id="modalBackdrop"></div>
+  <div class="modal-card" role="dialog" aria-modal="true" aria-label="作品详情">
+    <button class="modal-close" id="modalClose" aria-label="关闭">✕</button>
+    <div class="modal-head">
+      <div>
+        <span class="modal-idx" id="modalIdx">01</span>
+        <h3 class="modal-title" id="modalTitle">唐凤</h3>
+        <p class="modal-sub" id="modalSub">TANG FENG · 人像摄影系列 · 2024</p>
+      </div>
+      <button class="modal-series" id="modalPrevSeries">← 上一个系列</button>
+      <button class="modal-series" id="modalNextSeries">下一个系列 →</button>
+    </div>
+    <div class="modal-stage">
+      <img id="modalImg" src="" alt="作品大图" />
+      <button class="modal-arrow left" id="modalPrev" aria-label="上一张">‹</button>
+      <button class="modal-arrow right" id="modalNext" aria-label="下一张">›</button>
+    </div>
+    <div class="modal-thumbs" id="modalThumbs"></div>
+    <div class="modal-foot">
+      <div class="modal-tags" id="modalTags"></div>
+      <p class="modal-desc" id="modalDesc"></p>
+    </div>
+  </div>
+</div>
+
+<a class="switch-fab" href="../color/" title="切换到彩色风格">🌈 切换彩色</a>
+
+<script src="../field/field.js"></script>
+<script src="works.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>李皓文 · HAOWEN LI — Living Green 绿色版</title>
+<meta name="description" content="李皓文的绿色个人作品集：摄影 · 视觉设计 · AIGC 创作 —— 把作品做成会呼吸的绿。" />
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<!-- 全站粒子流场 + 流体光斑 + 鼠标跟随背景（field.js） -->
+<canvas id="bgField" data-field="moss" data-blend="glow" data-dens="high" aria-hidden="true"></canvas>
+
+<!-- 玻璃 Dock -->
+<header class="dock-wrap" id="dockWrap">
+  <nav class="dock" aria-label="主导航">
+    <a class="dock-brand par" href="#top" style="--pd:6" aria-label="HAOWEN LI 首页">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2C7.3 2 3.5 5.2 3 9.6c-.4 3.4 1.2 6.6 4 8.5l2.5-3.2A8 8 0 0 1 12 8a8 8 0 0 1 2.5 6.9l2.5 3.2c2.8-1.9 4.4-5.1 4-8.5C20.5 5.2 16.7 2 12 2Z"/><path fill="currentColor" d="M9 15.6c0 2.4 1.3 4.6 3.1 6h-.2c-1.4 0-2.7-.4-3.9-1.1L9 15.6Z"/></svg>
+      <b>HAOWEN<span>绿意</span></b>
+    </a>
+    <a class="dock-item par" href="#about" style="--pd:6">关于</a>
+    <a class="dock-item par" href="#works" style="--pd:6">作品</a>
+    <a class="dock-item par" href="#strengths" style="--pd:6">超能力</a>
+    <a class="dock-item par" href="#contact" style="--pd:6">联系</a>
+    <span class="dock-rule" aria-hidden="true"></span>
+    <div class="switch" aria-label="风格切换">
+      <a href="../">暗黑</a><a href="../cute/">可爱</a><a href="./" class="on">绿意</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <!-- ═══ 整屏 Hero · Living Green ═══ -->
+  <section class="hero" id="top">
+    <div class="stage">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="ghost par" style="--pd:2" aria-hidden="true">GREENERY&nbsp;&nbsp;GREENERY</div>
+
+      <div class="hero-copy">
+        <p class="hello in" style="--d:240ms">A LIVING PORTFOLIO · 绿色作品集</p>
+        <h1>
+          <span class="ln in" style="--d:340ms"><i>把作品，</i></span>
+          <span class="ln in" style="--d:460ms"><i>做成会<span class="grad">呼吸</span>的</i></span>
+          <span class="ln in big" style="--d:580ms"><i>绿&nbsp;意<span class="dot">.</span></i></span>
+        </h1>
+        <p class="lede in" style="--d:700ms">摄影 · 视觉设计 · AIGC ——<br/>在取景框里种一座森林，等光来浇灌。</p>
+        <div class="chips in" style="--d:820ms">
+          <span>📸 摄影</span><span>🎨 视觉设计</span><span>🤖 AIGC</span><span>🌸 蓝晒工艺</span>
+        </div>
+        <div class="cta-row in" style="--d:940ms">
+          <a class="pill par" style="--pd:14" href="#works"><span class="pill-ico" aria-hidden="true"><svg viewBox="0 0 20 20"><path d="M3 5h14M3 10h14M3 15h9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></span>看作品 ↓</a>
+          <a class="round par" style="--pd:18" href="mailto:mll477298884@qq.com" aria-label="写信给我">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4.5v15L18 12z" fill="currentColor"/></svg>
+          </a>
+          <span class="round-hint">写信 / 合作</span>
+        </div>
+        <dl class="stats in" style="--d:1060ms">
+          <div class="stat">
+            <span class="mark" aria-hidden="true"><svg viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="15" cy="15" r="10.6" stroke-dasharray=".7 3.8"/><circle cx="15" cy="15" r="5.7" stroke-dasharray=".7 3.3"/><circle cx="15" cy="15" r="1.1" fill="currentColor"/></svg></span>
+            <div><dt>作品系列</dt><dd>07</dd></div>
+          </div>
+          <div class="stat">
+            <span class="mark" aria-hidden="true"><svg viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M15 3.5v6M15 20.5v6M3.5 15h6M20.5 15h6"/><circle cx="15" cy="15" r="5"/></svg></span>
+            <div><dt>国际影展</dt><dd>01</dd></div>
+          </div>
+          <div class="stat">
+            <span class="mark" aria-hidden="true"><svg viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M9 21.5c-3.2-4.6-.4-9.6 1.4-12.4M15 25c-4.6-6.4-.6-13 2-16.6M21 21.5c2.2-4.2 1.6-8.8.8-12.2" stroke-linecap="round"/><circle cx="15" cy="15" r="11.4" opacity=".5"/></svg></span>
+            <div><dt>影像深耕</dt><dd>03+ 年</dd></div>
+          </div>
+        </dl>
+      </div>
+
+      <div class="hero-scene">
+        <div class="vine v1 par" style="--pd:10" aria-hidden="true"></div>
+        <div class="vine v2 par" style="--pd:16" aria-hidden="true"></div>
+        <figure class="photo-card card-a in par" style="--d:500ms; --pd:22">
+          <img src="../cute/assets/works/qianhu/work-1.jpeg" alt="千户苗疆摄影作品" loading="eager" decoding="async"/>
+          <figcaption><span>Field Note · 千户苗疆</span><em>01</em></figcaption>
+          <a class="knob" href="#works" aria-label="看这个系列"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 21v-8M12 13c0-3.2 2.3-5.8 5.3-5.8.3 3.5-2.1 6.1-5.3 5.8Z"/><path d="M12 15.2c-.1-2.8-2.1-5-4.7-5C7 12.9 9 15.2 12 15.2Z"/></svg></a>
+        </figure>
+        <figure class="photo-card card-b in par" style="--d:720ms; --pd:12">
+          <img src="../cute/assets/works/classic/classic-1.jpg" alt="古典蓝晒工艺作品" loading="lazy" decoding="async"/>
+          <figcaption><span>古典 · 蓝晒</span><em>06</em></figcaption>
+        </figure>
+        <span class="orb o1 in" style="--d:900ms" aria-hidden="true"></span>
+        <span class="orb o2 in" style="--d:1100ms" aria-hidden="true"></span>
+        <a class="scroll-cue in" style="--d:1250ms" href="#about">滚动<span class="track"></span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 细分隔跑马灯 -->
+  <div class="tape" aria-hidden="true">
+    <div class="tape-track">
+      <span>摄影 · 设计 · AIGC · 蓝晒 · 商业实拍</span><span>·</span><span>把世界拍绿一点</span><span>·</span>
+      <span>摄影 · 设计 · AIGC · 蓝晒 · 商业实拍</span><span>·</span><span>把世界拍绿一点</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- 关于 -->
+  <section class="l-section" id="about">
+    <p class="kicker reveal">ABOUT · 关于我</p>
+    <h2 class="reveal">种了很久的镜头，<br/><span class="grad">现在想看看它长什么样</span></h2>
+    <div class="about-grid">
+      <div class="about-photo reveal">
+        <div class="frame"><img src="../cute/assets/portrait.jpg" alt="李皓文"/></div>
+        <p class="photo-cap">李皓文 · 在暗房里等一张蓝晒显影</p>
+      </div>
+      <div class="about-text reveal">
+        <p>我是<strong>李皓文</strong>，河北传媒学院摄影专业。从古典蓝晒的慢速显影，到 AIGC 的即时生成，四年影像训练贯通「策划 — 拍摄 — 后期」全流程。</p>
+        <p>镜头是我记录现场的方式，设计是我重构观看的语言。作品入选<strong>丽水国际摄影展</strong>，现为<strong>石家庄摄影家协会会员</strong>。</p>
+        <div class="about-chips">
+          <span>📍 河北 · 廊坊 / 石家庄</span>
+          <span>🏫 河北传媒学院 · 摄影专业</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作品马赛克 -->
+  <section class="l-section" id="works">
+    <p class="kicker reveal">WORKS · 作品马赛克</p>
+    <h2 class="reveal">把每个系列，<br/><span class="grad">拼成一片绿意</span></h2>
+    <div class="mosaic" id="mosaic"></div>
+  </section>
+
+  <!-- 超能力 -->
+  <section class="l-section" id="strengths">
+    <p class="kicker reveal">SUPERPOWERS · 超能力</p>
+    <h2 class="reveal">一个人的<br/><span class="grad">影像小分队</span></h2>
+    <div class="sk-grid">
+      <div class="sk s-green reveal"><span class="sk-ico">📸</span><h3>摄影创作</h3><p>人像 / 纪实 / 商业实拍，古典工艺一把抓</p></div>
+      <div class="sk s-lime reveal"><span class="sk-ico">🎨</span><h3>后期与设计</h3><p>PS / LR 调色精修，版式设计一手包</p></div>
+      <div class="sk s-moss reveal"><span class="sk-ico">🤖</span><h3>AIGC 创作</h3><p>用 AI 把灵感种进素材里，更快发芽</p></div>
+      <div class="sk s-cream reveal"><span class="sk-ico">🧩</span><h3>全流程统筹</h3><p>从策划到输出，一个人就是一支小队</p></div>
+    </div>
+  </section>
+
+  <!-- 联系 -->
+  <section class="l-section contact" id="contact">
+    <p class="kicker reveal">CONTACT · 联系我</p>
+    <h2 class="reveal">一起，<br/><span class="grad">搞点会发光的</span></h2>
+    <p class="contact-line reveal">📞 <a href="tel:+8619031068512">190 3106 8512</a>　💬 微信 li19031068512　📧 <a href="mailto:mll477298884@qq.com">mll477298884@qq.com</a></p>
+    <div class="contact-actions reveal">
+      <a class="pill pill-big" href="mailto:mll477298884@qq.com">给我写信 ✉️</a>
+      <a class="pill pill-ghost" href="https://haoyue521.github.io/" target="_blank" rel="noopener">看正式作品集 ↗</a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>© 2026 李皓文 · HAOWEN LI · Living Green 绿色版</p>
+  <p class="foot-emoji">🍃 保持创作，常看常绿</p>
+</footer>
+
+<!-- 作品弹层 -->
+<div class="modal" id="modal">
+  <div class="mback" id="mback"></div>
+  <div class="mcard">
+    <button class="mclose" id="mclose" aria-label="关闭">✕</button>
+    <img id="mimg" src="" alt=""/>
+    <p id="mcap"></p>
+  </div>
+</div>
+
+<script src="../field/field.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

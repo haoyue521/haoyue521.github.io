@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 680" role="img" aria-label="紫蓝梦境">
+  <defs>
+    <linearGradient id="dream" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cdb4f6"/>
+      <stop offset="1" stop-color="#a8d8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="680" fill="url(#dream)"/>
+  <g transform="translate(300 330)">
+    <path d="M0 -130 q130 -40 130 130 q0 170 -130 130 q-130 40 -130 -130 q0 -170 130 -130 Z" fill="#fff" stroke="#2b2233" stroke-width="12"/>
+    <circle cx="-40" cy="-30" r="11" fill="#2b2233"/>
+    <circle cx="40" cy="-30" r="11" fill="#2b2233"/>
+    <circle cx="-36" cy="-34" r="4" fill="#fff"/>
+    <circle cx="44" cy="-34" r="4" fill="#fff"/>
+    <path d="M-14 16 q14 18 28 0" fill="none" stroke="#2b2233" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="120" cy="150" r="10"/>
+    <circle cx="150" cy="190" r="6"/>
+    <circle cx="460" cy="140" r="8"/>
+    <circle cx="500" cy="200" r="5"/>
+    <circle cx="500" cy="520" r="7"/>
+  </g>
+</svg>
