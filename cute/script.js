@@ -31,7 +31,7 @@ const worksGrid = document.getElementById('worksGrid');
 worksGrid.innerHTML = WORKS.map(w => `
   <article class="pf-card" data-id="${w.id}">
     <span class="pf-idx">${w.index}</span>
-    <div class="pf-media"><img src="${w.cover}" alt="${w.title}" loading="lazy" /></div>
+    <div class="pf-media"><img src="${w.cover}" alt="${w.title}" loading="lazy" decoding="async" /></div>
     <div class="pf-body">
       <h3>${w.title} <span class="pf-en">${w.titleEn}</span></h3>
       <p class="pf-meta">${w.category} · ${w.year}</p>
@@ -64,7 +64,7 @@ function renderModal() {
   modalTags.innerHTML = w.tags.map(t => `<span>${t}</span>`).join('');
   modalDesc.textContent = w.desc;
   modalThumbs.innerHTML = all.map((src, i) =>
-    `<img src="${src}" class="${i === curImg ? 'active' : ''}" data-i="${i}" alt="" />`).join('');
+    `<img src="${src}" class="${i === curImg ? 'active' : ''}" data-i="${i}" alt="" loading="lazy" decoding="async" />`).join('');
 }
 
 function openModal(id) {

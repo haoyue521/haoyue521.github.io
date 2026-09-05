@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="styles.css" />
 <link rel="stylesheet" href="bg.css" />
 </head>
-<body>
+<body data-splash="cute">
 <canvas id="bgField" data-field="pastel" data-blend="soft" aria-hidden="true"></canvas>
 <div class="bg-blobs" aria-hidden="true">
   <span class="blob b1"></span>
@@ -85,7 +85,7 @@
     </div>
     <div class="about-grid">
       <div class="card about-card reveal">
-        <img class="about-portrait" src="assets/portrait.jpg" alt="李皓文" />
+        <img class="about-portrait" src="assets/portrait.jpg" alt="李皓文" loading="lazy" decoding="async" />
         <div class="about-badges">
           <span class="pill pill-pink">📸 摄影师</span>
           <span class="pill pill-lav">🎨 视觉设计师</span>
@@ -184,6 +184,7 @@
   </div>
 </div>
 
+<script src="../intro/splash.js"></script>
 <script src="../field/field.js"></script>
 <script src="works.js"></script>
 <script src="script.js"></script>

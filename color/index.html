@@ -7,7 +7,7 @@
 <meta name="description" content="李皓文的绿色个人作品集：摄影 · 视觉设计 · AIGC 创作 —— 把作品做成会呼吸的绿。" />
 <link rel="stylesheet" href="styles.css"/>
 </head>
-<body>
+<body data-splash="green">
 <!-- 全站粒子流场 + 流体光斑 + 鼠标跟随背景（field.js） -->
 <canvas id="bgField" data-field="moss" data-blend="glow" data-dens="high" aria-hidden="true"></canvas>
 
@@ -74,7 +74,7 @@
         <div class="vine v1 par" style="--pd:10" aria-hidden="true"></div>
         <div class="vine v2 par" style="--pd:16" aria-hidden="true"></div>
         <figure class="photo-card card-a in par" style="--d:500ms; --pd:22">
-          <img src="../cute/assets/works/tangfeng/work-1.jpeg" alt="唐凤系列人像摄影作品" loading="eager" decoding="async"/>
+          <img src="../cute/assets/works/tangfeng/work-1.jpeg" alt="唐凤系列人像摄影作品" loading="eager" fetchpriority="high" decoding="async"/>
           <figcaption><span>Field Note · 唐凤</span><em>01</em></figcaption>
           <a class="knob" href="#works" aria-label="看这个系列"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M12 21v-8M12 13c0-3.2 2.3-5.8 5.3-5.8.3 3.5-2.1 6.1-5.3 5.8Z"/><path d="M12 15.2c-.1-2.8-2.1-5-4.7-5C7 12.9 9 15.2 12 15.2Z"/></svg></a>
         </figure>
@@ -103,7 +103,7 @@
     <h2 class="reveal">种了很久的镜头，<br/><span class="grad">现在想看看它长什么样</span></h2>
     <div class="about-grid">
       <div class="about-photo reveal">
-        <div class="frame"><img src="../cute/assets/portrait.jpg" alt="李皓文"/></div>
+        <div class="frame"><img src="../cute/assets/portrait.jpg" alt="李皓文" loading="lazy" decoding="async"/></div>
         <p class="photo-cap">李皓文 · 在暗房里等一张蓝晒显影</p>
       </div>
       <div class="about-text reveal">
@@ -162,6 +162,7 @@
   </div>
 </div>
 
+<script src="../intro/splash.js"></script>
 <script src="../field/field.js"></script>
 <script src="script.js"></script>
 </body>
